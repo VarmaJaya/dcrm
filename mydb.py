@@ -2,8 +2,8 @@ import mysql.connector # type: ignore
 
 dataBase = mysql.connector.connect(
     host = 'localhost',
-    user = 'root',
-    passwd = 'Indra@123',
+    user = 'Your user name',
+    passwd = 'your password',
     )
 
 #prepare a cursor object
